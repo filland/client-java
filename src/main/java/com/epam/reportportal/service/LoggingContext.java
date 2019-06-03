@@ -147,7 +147,8 @@ public class LoggingContext {
 					}
 				})
 				.observeOn(Schedulers.computation())
-				.subscribe(logFlowableResults("Logging context"));
+				.subscribe();
+//				.subscribe(logFlowableResults("Logging context"));
 
 	}
 
